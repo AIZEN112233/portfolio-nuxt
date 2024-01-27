@@ -14,8 +14,9 @@ export default defineConfig({
 		presetUno(),
 		presetTypography(),
 		presetWebFonts({
+			provider: "google",
 			fonts: {
-				// ...
+				poppins: ["Poppins", "sans-serif"],
 			},
 		}),
 	],
